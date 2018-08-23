@@ -1,6 +1,6 @@
 <div class="header-box">
     <div class="header-top">
-        <div class="content">
+        <div class="content clearfix">
             <div class="header-top-box">
                 <div class="header-time">
                     <span class="date">2018-08-02</span>
@@ -9,7 +9,7 @@
                 <a href="javascript:;" class="service-a">在线客服</a>
                 <div class="language">
                     <i class="left-i"></i>
-                    <span>简体中文</span>
+                    <span class="chose-span">简体中文</span>
                     <i class="right-i"></i>
                     <div class="lang-chose">
                         <span>简体中文</span>
@@ -116,5 +116,10 @@
                 $(".header").removeClass("header-fix");
             }
         })
+        $(".header-top .lang-chose span").click(function () {
+            $(".header-top .chose-span").text($(this).text());
+        })
+        var time=new Date();
+        console.log(time);
     })
 </script>

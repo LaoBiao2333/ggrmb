@@ -163,14 +163,31 @@ table {
     position: relative;
 }
 
+.header-box .header-top .header-top-box .language i.left-i {
+    width: 17px;
+    height: 17px;
+    background: url(../images/common_icon.png) -265px -220px no-repeat;
+    margin: 4px 8px 0 0;
+    float: left;
+}
+.header-box .header-top .header-top-box .language i.right-i {
+    width: 8px;
+    height: 4px;
+    background: url(../images/common_icon.png) -322px -227px no-repeat;
+    margin: 11px 0 0 7px;
+    float: left;
+}
+
 .header-box .header-top .header-top-box .language .lang-chose {
     position: absolute;
     top: 26px;
     left: 50%;
-    transform: translateX(-50%) translateY(-100%);
-    z-index: -1;
+    margin-left: -30px;
+    background: #fff;
     width: 70px;
-    height: 55px;
+    /* height: 55px; */
+    max-height: 0;
+    overflow: hidden;
     border: 1px solid #15212d;
     color: #15212d;
     transition: all 0.3s;
@@ -181,6 +198,12 @@ table {
     line-height: 26px;
     display: block;
     text-align: center;
+    cursor: pointer;
+}
+
+.header-box .header-top .header-top-box .language .lang-chose span:hover {
+    color: #fff;
+    background: #15212d;
 }
 
 .header-box .header-top .header-top-box .language .lang-chose span:first-child {
@@ -188,7 +211,7 @@ table {
 }
 
 .header-box .header-top .header-top-box .language:hover .lang-chose {
-    transform: translateX(-50%) translateY(0);
+    max-height: 55px;
 }
 
 .header-box .header {
@@ -266,6 +289,7 @@ table {
     background-color: #fff;
     text-align: center;
     transition: all 0.5s;
+    z-index: 98;
 }
 
 .header-box .header .header-box ul li .sec-menu span,
@@ -349,7 +373,7 @@ table {
 
 .footer ul.link-c-ul li {
     width: 16.6%;
-    height: 95px;
+    /* height: 95px; */
     display: inline-block;
 }
 
@@ -482,7 +506,7 @@ table {
 .footer ul.link li span a {
     color: #fff;
     font-size: 14px;
-    line-height: 95px;
+    line-height: 48px;
 }
 
 .footer .bottom-box {
