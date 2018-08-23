@@ -1,0 +1,111 @@
+.research-box.news {
+    background-color: #fff;
+    width: 882px;
+    display: block;
+    margin: 0 auto;
+}
+
+.research-box.news .research-content ul.research-ul {
+    width: 805px;
+    margin: 16px auto;
+    font-size: 0;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.research-box.news .research-content ul.research-ul li {
+    width: 100%;
+    border-radius: 10px;
+    padding: 33px 24px 12px 27px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    display: block;
+    transition: all 0.3s;
+    border-top: 1px dashed #dedede;
+}
+
+.research-box.news .research-content ul.research-ul li .li-i {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-top: 8px;
+    background-color: #2e8836;
+}
+
+.research-box.news .research-content ul.research-ul li a b {
+    display: block;
+    font-size: 20px;
+    color: #333;
+    line-height: 22px;
+    margin-bottom: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.research-box.news .research-content ul.research-ul li p {
+    display: block;
+    line-height: 24px;
+    font-size: 14px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.research-box.news .research-content ul.research-ul li .li-bottom {
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.research-box.news .research-content ul.research-ul li .li-bottom .type-span {
+    padding: 0 10px;
+    height: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-color: #2e8836;
+    margin-right: 20px;
+}
+
+.research-box.news .research-content ul.research-ul li .li-bottom .type2 {
+    background-color: #126fd8;
+}
+
+.research-box.news .research-content ul.research-ul li .li-bottom .type3 {
+    background-color: #e98024;
+}
+
+.research-box.news .research-content ul.research-ul li .li-bottom .type4 {
+    background-color: #e9242d;
+}
+
+.research-box.news .research-content ul.research-ul li .li-bottom span {
+    display: inline-block;
+    font-size: 14px;
+    color: #999;
+    margin-right: 35px;
+}
+
+.research-box.news .research-content ul.research-ul li .li-bottom span i {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: -2px;
+    margin-right: 8px;
+    background: url(../images/research/research_icon.png) 0 0 no-repeat;
+}
+
+.research-box.news .research-content ul.research-ul li .li-bottom .view-span i {
+    width: 18px;
+    background-position-x: -18px;
+}
+
+.research-box.news .research-content ul.research-ul li:first-child {
+    border-top: none;
+}

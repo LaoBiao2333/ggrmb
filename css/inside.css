@@ -1,0 +1,257 @@
+/* banner */
+
+.banner {
+    height: 256px;
+    position: relative;
+}
+
+.banner .bg-img {
+    min-width: 1200px;
+    height: 256px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner .bg-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner .txt {
+    display: table-cell;
+    height: 256px;
+    vertical-align: middle;
+}
+
+.banner .txt h4 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+/* nav */
+
+.fr {
+    width: 285px;
+}
+
+.fr .btn_box {
+    box-sizing: border-box;
+    padding: 20px 18px 2px 18px;
+    background: #ffffff;
+    margin-bottom: 13px;
+    border-radius: 5px;
+}
+
+.fr .btn_box a {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.fr .btn_box .real {
+    color: #ffffff;
+    background: #e98024;
+    overflow: hidden;
+}
+
+.fr .btn_box .real span {
+    position: absolute;
+    left: -17px;
+    top: 9px;
+    display: block;
+    font-size: 12px;
+    height: 28px;
+    width: 92px;
+    color: #e98024;
+    line-height: 28px;
+    transform: rotate(-45deg);
+    background: #ffffff;
+}
+
+.fr .btn_box .demo {
+    color: #2e8836;
+    border-color: #2e8836;
+}
+
+.fr .type_box {
+    background: #ffffff;
+}
+
+.fr .type_box a {
+    display: block;
+    padding: 15px 0;
+}
+
+.fr .type_box b {
+    float: left;
+    width: 10px;
+    height: 18px;
+    margin: 5px 30px 0 50px;
+    background: url(../images/about/about_icon.png) 0 -75px;
+}
+
+.fr .type_box i {
+    float: right;
+    width: 29px;
+    height: 29px;
+    margin-right: 55px;
+    background: url(../images/about/about_icon.png);
+}
+
+.fr .type_box span {
+    float: left;
+    font-size: 18px;
+    margin-top: 5px;
+    color: #333333;
+}
+
+.fr .type_box #nav-1 i {
+    background-position-x: -137px;
+    background-position-y: -36px;
+}
+
+.fr .type_box #nav-2 i {
+    background-position-x: -179px;
+    background-position-y: -36px;
+}
+
+.fr .type_box #nav-3 i {
+    background-position-x: -219px;
+    background-position-y: -36px;
+}
+
+.fr .type_box #nav-4 i {
+    background-position-x: -259px;
+    background-position-y: -36px;
+}
+
+.fr .type_box a.active i,
+.fr .type_box a:hover i {
+    background-position-y: 0px !important;
+}
+
+.fr .type_box a.active b,
+.fr .type_box a:hover b {
+    background-position-x: -21px;
+}
+
+.fr .type_box a.active span,
+.fr .type_box a:hover span {
+    color: #2e8836;
+}
+
+/* page */
+
+.page-nav {
+    margin-top: 47px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.page-nav ul.pagination {
+    margin: 0 15px;
+}
+
+.page-nav ul.pagination li {
+    display: inline-block;
+    line-height: 24px;
+    margin-left: 16px;
+}
+
+.page-nav ul.pagination li a {
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    font-size: 16px;
+    color: #999;
+    padding: 0;
+    cursor: pointer !important;
+}
+
+.page-nav ul.pagination li:first-child {
+    margin-left: 0;
+}
+
+.page-nav ul.pagination li:hover a,
+.page-nav ul.pagination li.active a {
+    color: #fff;
+    background-color: #2e8836;
+    border-color: #2e8836;
+}
+
+.page-nav span,
+.page-nav a {
+    height: 26px;
+    display: inline-block;
+    font-size: 16px;
+    color: #999;
+    line-height: 26px;
+}
+
+.page-nav ul {
+    font-size: 0;
+    display: inline-block;
+    vertical-align: -7px;
+}
+
+.page-nav ul li {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.page-nav ul li a {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.page-nav ul li:first-child {
+    margin-left: 0;
+}
+
+.page-nav ul li:hover a,
+.page-nav ul li.active a {
+    color: #fff;
+    background-color: #2e8836;
+    border-color: #2e8836;
+}
+
+.page-nav span input {
+    width: 46px;
+    height: 24px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    text-align: center;
+    color: #999;
+    font-size: 16px;
+}
+
+.page-nav .page-btn {
+    width: 66px;
+    border: 1px solid #999;
+    border-radius: 26px;
+}
+
+.page-nav .page-btn:hover {
+    background-color: #2e8836;
+    border-color: #2e8836;
+}
+
+.page-nav .page-btn:hover a {
+    color: #fff;
+}
+
+.page-nav .skip-span {
+    margin: 0 30px;
+}

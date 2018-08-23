@@ -1,0 +1,120 @@
+<div class="header-box">
+    <div class="header-top">
+        <div class="content">
+            <div class="header-top-box">
+                <div class="header-time">
+                    <span class="date">2018-08-02</span>
+                    <span class="area">13:36:25 GMT</span>
+                </div>
+                <a href="javascript:;" class="service-a">在线客服</a>
+                <div class="language">
+                    <i class="left-i"></i>
+                    <span>简体中文</span>
+                    <i class="right-i"></i>
+                    <div class="lang-chose">
+                        <span>简体中文</span>
+                        <span>繁体中文</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="content clearfix">
+            <div class="header-box">
+                <div class="logo">
+                    <img :src=logoUrl alt="">
+                </div>
+                <a href="javascript:;" class="a-register">注册</a>
+                <ul>
+                    <li class="active">
+                        <a class="fir-a" href="javascript:;">首页</a>
+                    </li>
+                    <li>
+                        <a class="fir-a" href="javascript:;">关于金盛</a>
+                        <div class="sec-menu">
+                            <span>
+                                <a href="/introduce" class="">品牌介绍</a>
+                            </span>
+                            <span>
+                                <a href="/cooperative" class="">合作伙伴</a>
+                            </span>
+                            <span>
+                                <a href="/agreement" class="">协议声明</a>
+                            </span>
+                            <span>
+                                <a href="/notice" class="">网站公告</a>
+                            </span>
+                            <span>
+                                <a href="/investment" class="">投资保障</a>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="fir-a" href="javascript:;">研究中心</a>
+                        <div class="sec-menu">
+                            <span>
+                                <a href="/analysis" class="">行情分析</a>
+                            </span>
+                            <span>
+                                <a href="/celue" class="">实盘策略</a>
+                            </span>
+                            <span>
+                                <a href="/xuetang" class="">金银课堂</a>
+                            </span>
+                            <span>
+                                <a href="/information" class="">市场动态</a>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="fir-a" href="javascript:;">交易规则</a>
+                        <div class="sec-menu">
+                            <span>
+                                <a href="/introduction" class="">产品介绍</a>
+                            </span>
+                            <span>
+                                <a href="/golden" class="">黄金规则</a>
+                            </span>
+                            <span>
+                                <a href="/silver" class="">白银规则</a>
+                            </span>
+                            <span>
+                                <a href="/vocabulary" class="">交易术语</a>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="fir-a" href="javascript:;">平台下载</a>
+                        <div class="sec-menu">
+                            <span>
+                                <a href="/https://user.ggfsg.com/spread/51500701" class="">真实开户</a>
+                            </span>
+                            <span>
+                                <a href="/https://www.ggfsg.com/account/demo?JiZhbmdldElEPTUxNTAwNzAx" class="">模拟开户</a>
+                            </span>
+                            <span>
+                                <a href="/download" class="">软件下载</a>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="fir-a" href="javascript:;">代理申请</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            var topS = $(document).scrollTop();
+            if (topS >= 26) {
+                $(".header").addClass("header-fix");
+            } else {
+                $(".header").removeClass("header-fix");
+            }
+        })
+    })
+</script>
