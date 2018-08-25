@@ -109,3 +109,85 @@
 .research-box.news .research-content ul.research-ul li:first-child {
     border-top: none;
 }
+
+/* research */
+
+.article .fl {
+    background: #fff;
+}
+
+.article .research-content {
+    width: 800px;
+    margin: 52px auto 0;
+}
+
+.article .research-content .title-box {
+    width: 800px;
+    margin: 0 auto 13px;
+    font-size: 26px;
+    color: #333;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.article .research-content .title-box b {
+    width: 688px;
+    display: inline-block;
+    font-size: 26px;
+    line-height: 1.1;
+    color: #333;
+    margin-bottom: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.article .research-content .title-box .date-span {
+    float: right;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+.article .research-content .title-box .date-span i {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: -2px;
+    margin-right: 8px;
+    background: url(../images/research/research_icon.png) 0 0 no-repeat;
+}
+
+.article .research-content .content-box {
+    padding-bottom: 34px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.article .research-content .content-box p {
+    font-size: 16px;
+    color: #666;
+    line-height: 36px;
+}
+
+.article .research-content .bottom-box {
+    margin: 32px auto;
+    text-align: center;
+}
+
+.article .research-content .bottom-box span {
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    line-height: 32px;
+    padding: 0 48px;
+}
+
+.article .research-content .bottom-box span span {
+    margin-left: 22px;
+    padding: 0;
+    cursor: pointer;
+    color: #666;
+}
+
+.article .research-content .bottom-box span span:hover {
+    color: #e91222;
+}
